@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#173e49" />
+    <title>Event Horizon · A little space to play</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'%3E%3Ctext y='48' font-size='48'%3E🪐%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <main id="app">
+      <div
+        id="world"
+        role="img"
+        aria-label="An interactive toy-like spaceport with a home, rocket, alien garden, and friendly robot"
+      ></div>
+      <div class="sky-grain" aria-hidden="true"></div>
+      <header class="topbar">
+        <div class="brand">
+          <span class="eyebrow">A LITTLE SPACE TO PLAY</span>
+          <h1>
+            EVENT <span>HORIZON<i aria-hidden="true">✦</i></span>
+          </h1>
+        </div>
+        <div class="top-actions">
+          <button id="sound" class="small-button" aria-pressed="false">♫ Sound off</button>
+          <button id="mood" class="small-button" aria-pressed="false">
+            <span aria-hidden="true">☾</span> Twilight</button
+          ><button
+            id="home"
+            class="small-button"
+            aria-label="Return to the courtyard"
+          >
+            <span aria-hidden="true">⌂</span
+            ><span class="home-text"> Recenter</span>
+          </button>
+        </div>
+      </header>
+      <aside class="location">
+        <span class="status-dot"></span> <span id="region-name">PEBBLE PORT</span>
+        <span class="location-note">Your little corner of the cosmos</span>
+      </aside>
+      <button id="mission" class="mission-card">
+        <span class="mail-icon" aria-hidden="true">✉</span
+        ><span
+          ><small>A MESSAGE FROM PIP</small
+          ><strong>The curious case of the missing snacks</strong
+          ><em>Open transmission <span aria-hidden="true">↗</span></em></span
+        ><span class="notification" aria-label="New message"></span>
+      </button>
+      <div id="toast" role="status" aria-live="polite">
+        Welcome, explorer. Make yourself at home.
+      </div>
+      <aside class="chapter-hud"><p id="objective"></p><small id="save-status"></small><p id="activity-status"></p></aside>
+      <div class="interaction"><span id="nearby"></span><button id="interact" class="primary-button" disabled>Explore</button><small id="ride-status">ON FOOT</small></div>
+      <footer class="bottom-bar">
+        <div class="joystick-wrap">
+          <div id="joystick" role="group" aria-label="Touch movement stick">
+            <span class="stick-cross" aria-hidden="true">＋</span
+            ><span id="stick" aria-hidden="true"></span>
+          </div>
+          <span class="control-label"
+            >MOVE <span class="keyboard-hint">· WASD / ARROWS</span></span
+          >
+        </div>
+        <div class="crew">
+          <span class="crew-label">WHO WILL YOU BE TODAY?</span>
+          <div
+            class="crew-buttons"
+            role="group"
+            aria-label="Choose your explorer"
+          >
+            <button
+              class="crew-choice selected"
+              data-character="astronaut"
+              aria-pressed="true"
+            >
+              <span class="portrait astronaut" aria-hidden="true"><i></i></span
+              ><span>Astronaut</span></button
+            ><button
+              class="crew-choice"
+              data-character="alien"
+              aria-pressed="false"
+            >
+              <span class="portrait alien" aria-hidden="true"><i></i></span
+              ><span>Alien</span></button
+            ><button
+              class="crew-choice"
+              data-character="robot"
+              aria-pressed="false"
+            >
+              <span class="portrait robot" aria-hidden="true"><i></i></span
+              ><span>Robot</span>
+            </button>
+          </div>
+        </div>
+        <div class="bubble-wrap">
+          <button id="bubble" aria-label="Blow bubbles">
+            <span class="bubble-symbol" aria-hidden="true"
+              ><i></i><i></i><i></i
+            ></span></button
+          ><span class="control-label"
+            >BUBBLES <span class="keyboard-hint">· SPACE</span></span
+          >
+        </div>
+      </footer>
+      <span class="prototype-label">CHAPTER ONE · TROUBLE AT PEBBLE PORT</span>
+      <dialog id="mission-dialog" aria-labelledby="mission-title">
+        <button
+          class="close-button"
+          id="close-mission"
+          aria-label="Close transmission"
+        >
+          ×
+        </button>
+        <div class="message-header">
+          <span class="pip-icon" aria-hidden="true">▣</span>
+          <div>
+            <span class="eyebrow" id="dialog-speaker">PIP</span>
+            <p>Your field notes <span>· take your time</span></p>
+          </div>
+        </div>
+        <h2 id="mission-title">Something ate<br />my moon muffins.</h2>
+        <div id="dialog-body"></div>
+        <p id="dialog-feedback" role="status" aria-live="polite"></p>
+        <div id="dialog-actions"></div>
+        <button id="read-aloud" class="small-button">Read aloud</button>
+      </dialog>
+      <div id="fallback" hidden>
+        <h2>Our spaceport couldn't start.</h2>
+        <p>
+          This prototype needs WebGL. Try opening it in a current Safari or
+          Chrome browser.
+        </p>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
