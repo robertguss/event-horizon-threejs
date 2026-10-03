@@ -17,7 +17,17 @@ Free play: drive the faster moon buggy, complete six course arches and return to
 
 Progress, character, rewards, decorations, paint, hidden aliens and lap records save locally on this browser/device. No cross-device sync. Storage-disabled browsers show a warning. Reload starts on foot at the port while retaining story progress; you can take the shuttle back to finish relay repairs.
 
-All models are procedural original geometry. No paid services, API keys, accounts, microphone access, or analytics. Google Fonts has system-font fallbacks. ElevenLabs is not used.
+All models are procedural original geometry. Gameplay uses no API keys, accounts, microphone access, analytics or paid API requests. Google Fonts has system-font fallbacks. Voice recordings were authored with ElevenLabs; playback serves local MP3 assets.
+
+## Voiceovers
+
+Read aloud plays recorded paragraphs in sequence, highlights the current paragraph and toggles to Stop reading. Dialogue changes, close, backgrounding and page exit stop narration. Text remains available and audio never starts automatically. Short/dynamic text or a missing recording uses browser speech when available. The decorative dialog title is not narrated. Effects mute is independent of explicitly requested narration.
+
+Cast: Liam (`TX3LPaxmHKxFdv7VOQHJ`) for Pip; Jessica (`cgSgspJ2msm6clMCkdW9`) for Luma; George (`JBFqnCBsd6RMkjVDRZzb`) for the caretaker and narration. `src/voice-manifest.json` maps exact visible text to recordings under `public/audio/voices/`. The generation script removes character name prefixes/attributions from spoken character lines. Format: MP3 44.1 kHz/128 kbps, `eleven_multilingual_v2`, stability 0.45, similarity 0.75, style 0.3, speaker boost enabled. No cloning or impersonation.
+
+`node scripts/generate-voices.mjs` is a dry run. `--samples` generates three audition passages; `--generate` explicitly consumes provider credits for missing files, reusing existing recordings. It reads `ELEVEN_LABS_API_KEY` or `ELEVENLABS_API_KEY` from the authoring environment only, never from Vite or client code. Ordinary tests/builds do not generate audio. The current batch is 56 clips / 6,208 input characters / approximately 6.3 minutes. Review your ElevenLabs plan's distribution terms before publishing the generated assets.
+
+For an authoring key, restrict access to Text to Speech and Voices Read; all other scopes can be disabled for this workflow. Set a small credit quota. The key can be disabled entirely between authoring sessions without affecting gameplay. See [ElevenLabs key restrictions](https://elevenlabs.io/docs/api-reference/authentication).
 
 Camera is elevated and automatic. Touch-first iPad landscape is the design target; Chromium touch emulation is not real iPad Safari verification. No educational efficacy or reading assessment claim. See `artifacts/game-progress.md` for playtest evidence and remaining risks.
 

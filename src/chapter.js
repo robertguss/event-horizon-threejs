@@ -1,7 +1,9 @@
 import {SAVE_KEY,newProgress,restoreProgress,advance,chapterNumber,objectives,titles,passages,deliveryNotes,canBubbleGuard} from './story.js';
+import {createVoicePlayer} from './voice-player.js';
 
 export function createChapter(api,world) {
   const $=s=>document.querySelector(s), dialog=$('#mission-dialog');
+  const voice=createVoicePlayer($('#read-aloud'));
   let progress=newProgress(), saved=true, nearest=null, region='port', riding=false, lap=null, hidePlaying=false;
   let soundEnabled=false, audio=null, audioGain=null, lastPrompt='', updateTime=0;
   try {progress=restoreProgress(localStorage.getItem(SAVE_KEY))||newProgress();}catch {saved=false;}
@@ -21,9 +23,9 @@ export function createChapter(api,world) {
     if(result.feedback){$('#dialog-feedback').textContent=result.feedback;sound();}
     return result;
   }
-  function close(){dialog.close();window.speechSynthesis?.cancel();api.resetInput();}
+  function close(){dialog.close();voice.stop();api.resetInput();}
   function show(title,paragraphs,actions=[],speaker='PEBBLE PORT') {
-    api.resetInput();window.speechSynthesis?.cancel();
+    api.resetInput();voice.stop();
     $('#mission-title').textContent=title;$('#dialog-speaker').textContent=speaker;
     $('#dialog-feedback').textContent='';
     const body=$('#dialog-body');body.replaceChildren();
@@ -217,13 +219,14 @@ export function createChapter(api,world) {
   $('#mission').onclick=journal;
   $('#close-mission').onclick=close;
   $('#interact').onclick=()=>interact();
-  $('#read-aloud').hidden=!('speechSynthesis' in window);
   $('#read-aloud').onclick=()=>{
-    window.speechSynthesis.cancel();const speech=new SpeechSynthesisUtterance($('#mission-title').textContent+'. '+$('#dialog-body').textContent);speech.rate=.95;window.speechSynthesis.speak(speech);
+    // Read body paragraphs, not the decorative heading, to start recorded dialogue immediately.
+    voice.read([...$('#dialog-body').children].map(element=>({text:element.textContent,element})));
   };
-  $('#sound').onclick=()=>{soundEnabled=!soundEnabled;$('#sound').setAttribute('aria-pressed',String(soundEnabled));$('#sound').textContent=soundEnabled?'♫ Sound on':'♫ Sound off';if(audioGain)audioGain.gain.value=soundEnabled?.08:0;sound();$('#sound').blur();};
-  document.addEventListener('visibilitychange',()=>{if(document.hidden){audio?.suspend().catch(()=>{});window.speechSynthesis?.cancel();}});
-  dialog.addEventListener('close',()=>{window.speechSynthesis?.cancel();api.resetInput();});
+  $('#sound').onclick=()=>{soundEnabled=!soundEnabled;$('#sound').setAttribute('aria-pressed',String(soundEnabled));$('#sound').textContent=soundEnabled?'♫ Effects on':'♫ Effects off';if(audioGain)audioGain.gain.value=soundEnabled?.08:0;sound();$('#sound').blur();};
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){audio?.suspend().catch(()=>{});voice.stop();}});
+  window.addEventListener('pagehide',voice.stop);
+  dialog.addEventListener('close',()=>{voice.stop();api.resetInput();});
   refresh();syncWorld();
   return { initial,update,bubble,interact,journal,travel,saveCharacter:kind=>send('character',kind),
     riding:()=>riding,region:()=>region,recenter:()=>{riding=false;lap=null;api.resetInput();api.position().set(0,.24,region==='port'?4.6:6.3);},

@@ -1,0 +1,282 @@
+{
+  "“I left a box of moon muffins beside the rocket. Now the box is empty! Tiny purple footprints lead toward the garden, and whoever took my muffins left a flower. A very polite snack thief, if you ask me.” — Pip": {
+    "file": "audio/voices/e40eef94a8d92a8e.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "“My babies ate your muffins. I left a flower because I thought it was a fair trade. We can grow our own food if you bring moonberries. They grow on the low blue plant with crescent-shaped leaves. The tall purple plant has prickly fruit that makes our tongues itch!” — Luma": {
+    "file": "audio/voices/e76f6de3d42a1566.mp3",
+    "role": "luma",
+    "voiceId": "cgSgspJ2msm6clMCkdW9"
+  },
+  "Caretaker’s maintenance log: “The battery overheats unless the cooling fan is running. Start the fan before switching on the battery. The antenna dish must wait until the battery supplies power. When all three are working, open the console to send a message.”": {
+    "file": "audio/voices/6be7cc644d7e67a4.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Mira lives in the round-roofed house. Her heater works, but she gets chilly while reading. Send her something soft to wrap around her shoulders.": {
+    "file": "audio/voices/95ec70eaa96c2ade.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Luma has plenty of food now. Her new moonberry plants are drooping because the soil is dry. She needs something that carries water, not something to eat.": {
+    "file": "audio/voices/0a44726a71ce2b74.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Pip sorts letters at Pebble Post. His desk lamp has stopped shining, even though the power is working. Send a replacement for the part that makes light.": {
+    "file": "audio/voices/049ca314ea8bd684.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Your reward is saved on this browser. Visit the home decoration marker to place it, or keep exploring.": {
+    "file": "audio/voices/20c8a8159bf626b4.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "An empty muffin box. There are crumbs, but no broken lock or ripped lid. Someone opened it carefully.": {
+    "file": "audio/voices/d766609a5596b521.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Small paired purple footprints head away from the rocket and toward the garden. These are not Pip’s square robot feet.": {
+    "file": "audio/voices/980b2ff8a541aa6c.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "A purple flower was left beside the box. It looks deliberately placed, not dropped during a chase.": {
+    "file": "audio/voices/5c01956875158d18.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Use the movement stick to explore. When you are near an object or neighbor, the green interaction button tells you what you can do. Bubbles are always available for goofing off.": {
+    "file": "audio/voices/c65bed0bb4c617d3.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Pip: “You found careful tracks and a flower. What explanation fits those clues?”": {
+    "file": "audio/voices/10e2ec559aa70f89.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "Pip: “That makes sense! Let’s meet our visitor before blaming them.”": {
+    "file": "audio/voices/d649f64f312328d0.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "The garden guard is being ridiculous again. Stand near the coral-capped robot and bubble it three times.": {
+    "file": "audio/voices/5a7b4fb810e9ab7c.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Pip: “Hungry babies? That explains the crumbs! Next time we’ll ask before borrowing muffins.”": {
+    "file": "audio/voices/e26ca3646da66186.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "Luma is growing her own moonberries now. Pip gives you a flower planter to remember your first rescue.": {
+    "file": "audio/voices/a02b64e88f17dedc.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "You earned the alien-flower planter. Luma’s babies also want to play hide-and-seek around the port!": {
+    "file": "audio/voices/a1dc35e2f748e68a.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Pip: “Three packages, three neighbors. I mixed up the address labels while practicing my dramatic entrance.”": {
+    "file": "audio/voices/6f62231b22fff034.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "Your notes describe what each neighbor needs. Read them, drive the buggy if you like, and choose a parcel when you visit Mira, Luma, or me at Pebble Post.": {
+    "file": "audio/voices/2299f641dd920bf3.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Pip: “The coral-capped parcel robot has decided it owns this entire post office. Three bubbles should reboot its manners.”": {
+    "file": "audio/voices/cd5ef437ae6790c5.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "Pip: “Mira is warm, Luma’s plants have water, and I can see my letters again! You matched the packages to the problems.”": {
+    "file": "audio/voices/875afda227984431.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "The buggy paint booth is yours. Choose mint, coral, or sunshine gold when you visit the buggy.": {
+    "file": "audio/voices/6da9781f90e54c75.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "You earned new buggy paint colors. Pip has also picked up a very peculiar signal.": {
+    "file": "audio/voices/3dce2e9f0ea8ba96.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Pip: “The old crater relay keeps saying HELLO? HELLO? The shuttle is ready, but nobody has used that station in years.”": {
+    "file": "audio/voices/6d7ae05a95caff15.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "Travel to the relay. Read the caretaker’s maintenance log, deal with the confused sentries, and find out who is trying to call.": {
+    "file": "audio/voices/fc681b8b01200b93.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Pip: “The caretaker wasn’t warning us about an invasion. It was lonely! We’ll call it every evening.”": {
+    "file": "audio/voices/a6dcddae1a463f0f.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "Beyond the relay, you picked up a new signal from a dark ring of stars. That mystery belongs to a future chapter. For now, Pebble Port is yours.": {
+    "file": "audio/voices/2401ef199529567d.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "You earned the star lamp. All three adventures are complete. Keep driving, decorate home, play robot bowling, or find the little aliens.": {
+    "file": "audio/voices/26e81d7b7e0f797c.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "“My favorite hobby is being extremely helpful. My second favorite is muffins.”": {
+    "file": "audio/voices/02402df913d77597.mp3",
+    "role": "pip",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "Luma: “Can you help us find food we can grow? I’ll ask Pip before trading things next time.”": {
+    "file": "audio/voices/ee6caf575c887294.mp3",
+    "role": "luma",
+    "voiceId": "cgSgspJ2msm6clMCkdW9"
+  },
+  "The babies accept the moonberries with three tiny happy squeaks. Luma plants the seeds in the garden.": {
+    "file": "audio/voices/4aa5785adb29ad4c.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Luma: “No more borrowing muffins without asking. Tell Pip we’re sorry—and thank you for listening.”": {
+    "file": "audio/voices/17524d8a53355f7d.mp3",
+    "role": "luma",
+    "voiceId": "cgSgspJ2msm6clMCkdW9"
+  },
+  "“Our babies are hiding around the neighborhood. Sprout likes the house, Nib watches the shuttle, and Wiggle is somewhere behind the post office.”": {
+    "file": "audio/voices/c555c5bbbb7a7018.mp3",
+    "role": "luma",
+    "voiceId": "cgSgspJ2msm6clMCkdW9"
+  },
+  "Caretaker: “The sentries think every visitor is a maintenance hazard. Bubble each one three times; nobody gets hurt.”": {
+    "file": "audio/voices/01df48b077ac73e2.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Read the log and settle both sentries first. They keep interrupting repairs.": {
+    "file": "audio/voices/25150ee92d81a60e.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Caretaker: “I kept sending HELLO because nobody had called in years. I wasn’t trying to scare anyone. I just wanted a friend.”": {
+    "file": "audio/voices/42f1c5984ebcf906.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "A second message arrives: “Beyond the dark ring, a light is still waiting.” You save the mysterious signal for another day.": {
+    "file": "audio/voices/f58ca00836f959e0.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Take the shuttle home and tell Pip what the caretaker really needed.": {
+    "file": "audio/voices/4daa98db28347058.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Choose a reward and a spot. You can change your mind whenever you like.": {
+    "file": "audio/voices/5c74014c61276400.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Earn the flower planter in the first adventure, then bring it home.": {
+    "file": "audio/voices/3714709a8b6e5f31.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Free to drive from the start. Hop out to investigate or talk to neighbors.": {
+    "file": "audio/voices/cea886461a54cbe4.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "For a little challenge, visit the COURSE marker and drive through the numbered arches.": {
+    "file": "audio/voices/0d50eb6cb14e2d49.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Drive through arch 1, then follow the numbers around the port.": {
+    "file": "audio/voices/681466655993e861.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Six arches and a finish back at arch 1. No penalties. Go at your own pace, or choose an optional timed lap.": {
+    "file": "audio/voices/2d3017c0c2f2ea70.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Help Luma in the first adventure to meet her babies. They love hide-and-seek.": {
+    "file": "audio/voices/d8c09fcac6fb8c29.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Sprout likes the round-roofed house. Nib watches shuttles. Wiggle likes looking at the back of Pebble Post.": {
+    "file": "audio/voices/603a67f802c4f1b1.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Find each one and use the interaction button. Your journal keeps count.": {
+    "file": "audio/voices/5225f4794af2473b.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Move: stick or WASD/arrows. Interact: green button or E. Bubbles: round button or Space. Notes are always available here.": {
+    "file": "audio/voices/0ce822e1f05ae1b0.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Visit the gold marker just outside HOME to place your rewards.": {
+    "file": "audio/voices/4803ee650fa34a4b.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "The buggy is parked near the front courtyard. The course starts at arch 1. Robot bowling is on the right: bubble all three pins, then use the reset marker to play again.": {
+    "file": "audio/voices/5364d831b04d8f19.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "The crater shuttle opens in adventure three. Stories never have a timer.": {
+    "file": "audio/voices/0b0fb4a8c808d730.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "This clears your Chapter One progress and decorations in this browser only. It cannot be undone.": {
+    "file": "audio/voices/5a0e11bbdcbf0e49.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "“I can read about the stars all afternoon. Sometimes my shoulders get chilly, though.”": {
+    "file": "audio/voices/278f5d56ab030e05.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Your buggy stays at Pebble Port. The shuttle will bring you back whenever you like.": {
+    "file": "audio/voices/b2b6326efe25d515.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Pip has to finish the delivery job before he can decode the crater signal. You can use the buggy and other toys now.": {
+    "file": "audio/voices/3dfece40c3700286.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  },
+  "Three delighted squeaks. Luma’s babies now consider you an honorary alien. Open the journal to play again.": {
+    "file": "audio/voices/ce4ef8df8d90421f.mp3",
+    "role": "narrator",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+  }
+}
